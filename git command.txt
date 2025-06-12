@@ -1,19 +1,3 @@
-git init
-git status
 git add .
-git commit -m "my first project"
-git remote add origin "repo name url"
-git status
-git checkout -b new_branch_name (for creating new branch)
-git checkout new_branch_name : (for switching branch from MASTER branch)
-git push origin branch_name :  (the branch in which you want to push your code)
----------------------------------------------------
-git checkout
-Check the current remote : git remote -v
-check all branches : git branch 
- Force delete local branch : git branch -D branch_name   
- Recreate the branch : git checkout -b branch_name   
-----------------------------------------------|
-git pull origin coder-army --rebase
-git push origin coder-army
------------------------------------------------|
+git commit -m " notes submitted "
+git push origin notes
